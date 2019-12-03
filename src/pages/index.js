@@ -5,8 +5,6 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <Link to="/contact/">Contact</Link>
-    <Header headerText="Hello Gatsby!"/>
     <p>What a galaxy.</p>
     <img src="https://source.unsplash.com/random/400x200" alt=""/>
     <br />
