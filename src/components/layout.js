@@ -6,9 +6,12 @@ import { Link } from "gatsby"
 
 export default ({ children }) =>
   (
-    <div>
+    <div className="container">
       <Link to="/contact/">Contact</Link>
-      <Header headerText="Hello Gatsby!"/>
-      {children}
+      <div>
+        <div className="pt1h">&nbsp;</div>
+        <Header headerText="Hello Gatsby!"/>
+        {children}
+      </div>
     </div>
 )

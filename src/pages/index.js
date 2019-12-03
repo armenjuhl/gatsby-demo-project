@@ -9,7 +9,7 @@ export default () => (
     <img src="https://source.unsplash.com/random/400x200" alt=""/>
     <br />
     <form method="get" action="/about">
-      <button className="primaryButton pt10">Learn more</button>
+      <button className="primaryButton mt10 center">Learn more</button>
     </form>
   </Layout>
 )

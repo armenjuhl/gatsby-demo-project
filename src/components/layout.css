@@ -1,11 +1,20 @@
 html {
   background-color: lavenderblush;
+  margin: 3rem auto;
+  max-width: 650px;
 }
+
 h1 {
   color: mediumpurple;
 }
+
 p {
   color: indigo
+}
+
+.container {
+  max-width: 650px;
+  display: flex;
 }
 
 .primaryButton {
@@ -16,6 +25,22 @@ p {
   padding: 10px;
 }
 
-.pt10 {
-  margin-top: 10px;
+.mt10 {
+  margin-top: 1em;
+}
+
+.center {
+  font-size: 14px;
+}
+
+.pt1 {
+  padding-top: 1em;
+}
+
+.pt1h {
+  padding-top: 1.5em;
+}
+
+.pt3 {
+  padding-top: 3em;
 }
