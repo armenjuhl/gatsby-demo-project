@@ -1,0 +1,21 @@
+html {
+  background-color: lavenderblush;
+}
+h1 {
+  color: mediumpurple;
+}
+p {
+  color: indigo
+}
+
+.primaryButton {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.pt10 {
+  margin-top: 10px;
+}
